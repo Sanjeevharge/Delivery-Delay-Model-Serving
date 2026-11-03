@@ -1,0 +1,8 @@
+data*/
+outputs*/
+artifacts_sample/
+mlruns/
+mlflow.db
+monitor_out/
+.git/
+__pycache__/

@@ -1,0 +1,7 @@
+-r requirements.txt
+fastapi
+uvicorn
+httpx
+pytest
+mlflow
+scipy

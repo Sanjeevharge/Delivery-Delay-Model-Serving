@@ -1,0 +1,31 @@
+{
+  "seed": 42,
+  "n_batches": 12,
+  "label_lag_batches": 1,
+  "rolling_window_batches": 4,
+  "drift_start_batch": 6,
+  "alerts": {
+    "psi_feature": 0.2,
+    "psi_prediction": 0.2,
+    "ks_stat": 0.15,
+    "ks_pvalue": 0.01,
+    "null_rate_increase": 0.05,
+    "out_of_range_rate": 0.01,
+    "unseen_category_rate": 0.02,
+    "pr_auc_floor_ratio": 0.6
+  },
+  "key_features": [
+    "distance_km",
+    "promised_days",
+    "freight_total",
+    "price_total",
+    "weight_total_g",
+    "customer_state",
+    "category"
+  ],
+  "range_check_exclude": [
+    "seller_hist_n",
+    "seller_hist_late_rate"
+  ],
+  "min_positives_for_pr_auc": 10
+}
