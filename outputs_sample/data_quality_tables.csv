@@ -1,0 +1,10 @@
+table,rows,columns,duplicate_rows,missing_cells_pct,columns_with_missing
+orders,12000,8,0,0.8333333333333334,"order_approved_at (0.2%), order_delivered_carrier_date (2.6%), order_delivered_customer_date (3.8%)"
+items,16705,7,0,0.0,-
+customers,12000,5,0,0.0,-
+sellers,250,4,0,0.0,-
+payments,12360,5,0,0.0,-
+products,800,9,0,0.4305555555555556,"product_category_name (2.6%), product_weight_g (0.6%), product_length_cm (0.6%)"
+geolocation,1090,5,40,0.0,-
+reviews,12000,7,0,29.669047619047618,"review_comment_title (100.0%), review_comment_message (100.0%), review_creation_date (3.8%), review_answer_timestamp (3.8%)"
+translation,12,2,0,0.0,-

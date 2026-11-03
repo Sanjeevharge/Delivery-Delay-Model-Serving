@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Datasets (Never push heavy CSVs to GitHub)
+data/
+data_sample/
+*.csv
+!outputs_sample/*.csv
+*.zip
+*.tar.gz
+
+# Environments & IDE
+.vscode/
+.idea/
+*.swp
+

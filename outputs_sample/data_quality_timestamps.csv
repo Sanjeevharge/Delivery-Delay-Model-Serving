@@ -1,0 +1,11 @@
+,rows,pct_of_orders
+approved before purchase,4,0.03333333333333333
+handed to carrier before purchase,0,0.0
+delivered before purchase,4,0.03333333333333333
+delivered before carrier hand-over,5,0.04166666666666667
+estimated date before purchase,0,0.0
+status 'delivered' but no delivery date,0,0.0
+delivery date but status not 'delivered',0,0.0
+orders without items,0,0.0
+orders without payment rows,0,0.0
+duplicate order_id,0,0.0
