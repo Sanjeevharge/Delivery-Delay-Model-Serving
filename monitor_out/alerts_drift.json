@@ -1,0 +1,432 @@
+[
+  {
+    "batch": 0,
+    "drifted": 0,
+    "rule": "PSI freight_total 0.29 > 0.2"
+  },
+  {
+    "batch": 0,
+    "drifted": 0,
+    "rule": "KS freight_total stat 0.19"
+  },
+  {
+    "batch": 1,
+    "drifted": 0,
+    "rule": "PSI freight_total 0.42 > 0.2"
+  },
+  {
+    "batch": 1,
+    "drifted": 0,
+    "rule": "KS freight_total stat 0.23"
+  },
+  {
+    "batch": 1,
+    "drifted": 0,
+    "rule": "rolling PR-AUC 0.031 < floor 0.072"
+  },
+  {
+    "batch": 2,
+    "drifted": 0,
+    "rule": "PSI promised_days 0.25 > 0.2"
+  },
+  {
+    "batch": 2,
+    "drifted": 0,
+    "rule": "KS promised_days stat 0.20"
+  },
+  {
+    "batch": 2,
+    "drifted": 0,
+    "rule": "PSI freight_total 0.32 > 0.2"
+  },
+  {
+    "batch": 2,
+    "drifted": 0,
+    "rule": "KS freight_total stat 0.16"
+  },
+  {
+    "batch": 2,
+    "drifted": 0,
+    "rule": "rolling PR-AUC 0.024 < floor 0.072"
+  },
+  {
+    "batch": 3,
+    "drifted": 0,
+    "rule": "PSI promised_days 0.25 > 0.2"
+  },
+  {
+    "batch": 3,
+    "drifted": 0,
+    "rule": "KS promised_days stat 0.23"
+  },
+  {
+    "batch": 3,
+    "drifted": 0,
+    "rule": "PSI freight_total 0.45 > 0.2"
+  },
+  {
+    "batch": 3,
+    "drifted": 0,
+    "rule": "KS freight_total stat 0.30"
+  },
+  {
+    "batch": 3,
+    "drifted": 0,
+    "rule": "PSI category 0.21 > 0.2"
+  },
+  {
+    "batch": 3,
+    "drifted": 0,
+    "rule": "prediction PSI 0.20 > 0.2"
+  },
+  {
+    "batch": 3,
+    "drifted": 0,
+    "rule": "rolling PR-AUC 0.031 < floor 0.072"
+  },
+  {
+    "batch": 4,
+    "drifted": 0,
+    "rule": "PSI promised_days 0.56 > 0.2"
+  },
+  {
+    "batch": 4,
+    "drifted": 0,
+    "rule": "KS promised_days stat 0.33"
+  },
+  {
+    "batch": 4,
+    "drifted": 0,
+    "rule": "PSI freight_total 0.26 > 0.2"
+  },
+  {
+    "batch": 4,
+    "drifted": 0,
+    "rule": "KS freight_total stat 0.19"
+  },
+  {
+    "batch": 5,
+    "drifted": 0,
+    "rule": "PSI promised_days 0.63 > 0.2"
+  },
+  {
+    "batch": 5,
+    "drifted": 0,
+    "rule": "KS promised_days stat 0.35"
+  },
+  {
+    "batch": 5,
+    "drifted": 0,
+    "rule": "PSI freight_total 0.37 > 0.2"
+  },
+  {
+    "batch": 5,
+    "drifted": 0,
+    "rule": "KS freight_total stat 0.23"
+  },
+  {
+    "batch": 6,
+    "drifted": 1,
+    "rule": "PSI distance_km 0.52 > 0.2"
+  },
+  {
+    "batch": 6,
+    "drifted": 1,
+    "rule": "KS distance_km stat 0.22"
+  },
+  {
+    "batch": 6,
+    "drifted": 1,
+    "rule": "PSI promised_days 4.04 > 0.2"
+  },
+  {
+    "batch": 6,
+    "drifted": 1,
+    "rule": "KS promised_days stat 0.76"
+  },
+  {
+    "batch": 6,
+    "drifted": 1,
+    "rule": "PSI freight_total 1.92 > 0.2"
+  },
+  {
+    "batch": 6,
+    "drifted": 1,
+    "rule": "KS freight_total stat 0.47"
+  },
+  {
+    "batch": 6,
+    "drifted": 1,
+    "rule": "PSI category 0.27 > 0.2"
+  },
+  {
+    "batch": 6,
+    "drifted": 1,
+    "rule": "prediction PSI 3.43 > 0.2"
+  },
+  {
+    "batch": 6,
+    "drifted": 1,
+    "rule": "null rate +0.15"
+  },
+  {
+    "batch": 6,
+    "drifted": 1,
+    "rule": "unseen category 0.214"
+  },
+  {
+    "batch": 7,
+    "drifted": 1,
+    "rule": "PSI distance_km 0.43 > 0.2"
+  },
+  {
+    "batch": 7,
+    "drifted": 1,
+    "rule": "KS distance_km stat 0.24"
+  },
+  {
+    "batch": 7,
+    "drifted": 1,
+    "rule": "PSI promised_days 4.35 > 0.2"
+  },
+  {
+    "batch": 7,
+    "drifted": 1,
+    "rule": "KS promised_days stat 0.80"
+  },
+  {
+    "batch": 7,
+    "drifted": 1,
+    "rule": "PSI freight_total 1.94 > 0.2"
+  },
+  {
+    "batch": 7,
+    "drifted": 1,
+    "rule": "KS freight_total stat 0.46"
+  },
+  {
+    "batch": 7,
+    "drifted": 1,
+    "rule": "PSI category 0.23 > 0.2"
+  },
+  {
+    "batch": 7,
+    "drifted": 1,
+    "rule": "prediction PSI 3.39 > 0.2"
+  },
+  {
+    "batch": 7,
+    "drifted": 1,
+    "rule": "null rate +0.17"
+  },
+  {
+    "batch": 7,
+    "drifted": 1,
+    "rule": "unseen category 0.203"
+  },
+  {
+    "batch": 8,
+    "drifted": 1,
+    "rule": "PSI distance_km 0.41 > 0.2"
+  },
+  {
+    "batch": 8,
+    "drifted": 1,
+    "rule": "KS distance_km stat 0.23"
+  },
+  {
+    "batch": 8,
+    "drifted": 1,
+    "rule": "PSI promised_days 3.93 > 0.2"
+  },
+  {
+    "batch": 8,
+    "drifted": 1,
+    "rule": "KS promised_days stat 0.79"
+  },
+  {
+    "batch": 8,
+    "drifted": 1,
+    "rule": "PSI freight_total 2.04 > 0.2"
+  },
+  {
+    "batch": 8,
+    "drifted": 1,
+    "rule": "KS freight_total stat 0.47"
+  },
+  {
+    "batch": 8,
+    "drifted": 1,
+    "rule": "PSI category 0.22 > 0.2"
+  },
+  {
+    "batch": 8,
+    "drifted": 1,
+    "rule": "prediction PSI 3.50 > 0.2"
+  },
+  {
+    "batch": 8,
+    "drifted": 1,
+    "rule": "null rate +0.17"
+  },
+  {
+    "batch": 8,
+    "drifted": 1,
+    "rule": "unseen category 0.188"
+  },
+  {
+    "batch": 9,
+    "drifted": 1,
+    "rule": "PSI distance_km 0.48 > 0.2"
+  },
+  {
+    "batch": 9,
+    "drifted": 1,
+    "rule": "KS distance_km stat 0.25"
+  },
+  {
+    "batch": 9,
+    "drifted": 1,
+    "rule": "PSI promised_days 3.51 > 0.2"
+  },
+  {
+    "batch": 9,
+    "drifted": 1,
+    "rule": "KS promised_days stat 0.73"
+  },
+  {
+    "batch": 9,
+    "drifted": 1,
+    "rule": "PSI freight_total 1.90 > 0.2"
+  },
+  {
+    "batch": 9,
+    "drifted": 1,
+    "rule": "KS freight_total stat 0.48"
+  },
+  {
+    "batch": 9,
+    "drifted": 1,
+    "rule": "PSI category 0.23 > 0.2"
+  },
+  {
+    "batch": 9,
+    "drifted": 1,
+    "rule": "prediction PSI 3.26 > 0.2"
+  },
+  {
+    "batch": 9,
+    "drifted": 1,
+    "rule": "null rate +0.13"
+  },
+  {
+    "batch": 9,
+    "drifted": 1,
+    "rule": "unseen category 0.204"
+  },
+  {
+    "batch": 10,
+    "drifted": 1,
+    "rule": "PSI distance_km 0.44 > 0.2"
+  },
+  {
+    "batch": 10,
+    "drifted": 1,
+    "rule": "KS distance_km stat 0.23"
+  },
+  {
+    "batch": 10,
+    "drifted": 1,
+    "rule": "PSI promised_days 4.23 > 0.2"
+  },
+  {
+    "batch": 10,
+    "drifted": 1,
+    "rule": "KS promised_days stat 0.76"
+  },
+  {
+    "batch": 10,
+    "drifted": 1,
+    "rule": "PSI freight_total 1.90 > 0.2"
+  },
+  {
+    "batch": 10,
+    "drifted": 1,
+    "rule": "KS freight_total stat 0.47"
+  },
+  {
+    "batch": 10,
+    "drifted": 1,
+    "rule": "PSI category 0.24 > 0.2"
+  },
+  {
+    "batch": 10,
+    "drifted": 1,
+    "rule": "prediction PSI 3.25 > 0.2"
+  },
+  {
+    "batch": 10,
+    "drifted": 1,
+    "rule": "null rate +0.15"
+  },
+  {
+    "batch": 10,
+    "drifted": 1,
+    "rule": "unseen category 0.210"
+  },
+  {
+    "batch": 11,
+    "drifted": 1,
+    "rule": "PSI distance_km 0.41 > 0.2"
+  },
+  {
+    "batch": 11,
+    "drifted": 1,
+    "rule": "KS distance_km stat 0.16"
+  },
+  {
+    "batch": 11,
+    "drifted": 1,
+    "rule": "PSI promised_days 4.49 > 0.2"
+  },
+  {
+    "batch": 11,
+    "drifted": 1,
+    "rule": "KS promised_days stat 0.80"
+  },
+  {
+    "batch": 11,
+    "drifted": 1,
+    "rule": "PSI freight_total 1.24 > 0.2"
+  },
+  {
+    "batch": 11,
+    "drifted": 1,
+    "rule": "KS freight_total stat 0.34"
+  },
+  {
+    "batch": 11,
+    "drifted": 1,
+    "rule": "PSI customer_state 0.29 > 0.2"
+  },
+  {
+    "batch": 11,
+    "drifted": 1,
+    "rule": "PSI category 0.24 > 0.2"
+  },
+  {
+    "batch": 11,
+    "drifted": 1,
+    "rule": "prediction PSI 2.61 > 0.2"
+  },
+  {
+    "batch": 11,
+    "drifted": 1,
+    "rule": "null rate +0.15"
+  },
+  {
+    "batch": 11,
+    "drifted": 1,
+    "rule": "unseen category 0.190"
+  }
+]
